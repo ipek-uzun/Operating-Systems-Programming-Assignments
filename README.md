@@ -22,7 +22,7 @@ Simulates a basketball court where players (threads) must synchronize using sema
 - Players cannot leave during a match
 - Referee (if exists) announces end of match
 - Last player notifies waiting threads after leaving
-- 
+  
 ### PA4 - Virtual Memory with Paging
 **Description:**  
 
@@ -33,7 +33,7 @@ Extends a basic LC-3 virtual machine to support paging-based address translation
 - Allows heap growth via `brk`
 - Enables multiple processes with isolated address spaces
 
-# Tools & TechnologiesUsed
+# Tools & Technologies Used
 - **Languages:** C, C++
 - **Concurrency:** POSIX Threads (`pthread`)
 - **Synchronization:** Semaphores (`sem_t`), Barriers

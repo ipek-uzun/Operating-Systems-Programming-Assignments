@@ -1,0 +1,55 @@
+izerburak@DESKTOP$ ./treePipe 0 3 0
+> current depth: 0, lr: 0
+Please enter num1 for the root: 1
+> my num1 is: 1
+---> current depth: 1, lr: 0
+---> my num1 is: 1
+------> current depth: 2, lr: 0
+------> my num1 is: 1
+---------> current depth: 3, lr: 0
+---------> my num1 is: 1
+---------> my result is: 2
+------> current depth: 2, lr: 0, my num1: 1, my num2: 2
+------> my result is: 3
+---------> current depth: 3, lr: 1
+---------> my num1 is: 3
+---------> my result is: 3
+---> current depth: 1, lr: 0, my num1: 1, my num2: 3
+---> my result is: 4
+------> current depth: 2, lr: 1
+------> my num1 is: 4
+---------> current depth: 3, lr: 0
+---------> my num1 is: 4
+---------> my result is: 5
+------> current depth: 2, lr: 1, my num1: 4, my num2: 5
+------> my result is: 20
+---------> current depth: 3, lr: 1
+---------> my num1 is: 20
+---------> my result is: 20
+> current depth: 0, lr: 0, my num1: 1, my num2: 20
+> my result is: 21
+---> current depth: 1, lr: 1
+---> my num1 is: 21
+------> current depth: 2, lr: 0
+------> my num1 is: 21
+---------> current depth: 3, lr: 0
+---------> my num1 is: 21
+---------> my result is: 22
+------> current depth: 2, lr: 0, my num1: 21, my num2: 22
+------> my result is: 43
+---------> current depth: 3, lr: 1
+---------> my num1 is: 43
+---------> my result is: 43
+---> current depth: 1, lr: 1, my num1: 21, my num2: 43
+---> my result is: 903
+------> current depth: 2, lr: 1
+------> my num1 is: 903
+---------> current depth: 3, lr: 0
+---------> my num1 is: 903
+---------> my result is: 904
+------> current depth: 2, lr: 1, my num1: 903, my num2: 904
+------> my result is: 816312
+---------> current depth: 3, lr: 1
+---------> my num1 is: 816312
+---------> my result is: 816312
+The final result is: 816312

@@ -1,0 +1,30 @@
+Thread ID: 140312049899072, I have arrived at the court.
+Thread ID: 140312049899072, There are only 1 players, passing some time.
+Thread ID: 140312041506368, I have arrived at the court.
+Thread ID: 140312041506368, There are only 2 players, passing some time.
+Thread ID: 140312033113664, I have arrived at the court.
+Thread ID: 140312033113664, There are only 3 players, passing some time.
+Thread ID: 140311951046208, I have arrived at the court.
+Thread ID: 140311951046208, There are enough players, starting a match.
+Thread ID: 140311942653504, I have arrived at the court.
+Thread ID: 140311934260800, I have arrived at the court.
+Thread ID: 140311925868096, I have arrived at the court.
+Thread ID: 140311917475392, I have arrived at the court.
+Thread ID: 140311909082688, I have arrived at the court.
+Thread ID: 140311951046208, I am a player and now, I am leaving.
+Thread ID: 140312033113664, I am a player and now, I am leaving.
+Thread ID: 140312049899072, I am a player and now, I am leaving.
+Thread ID: 140312041506368, I am a player and now, I am leaving.
+Thread ID: 140312041506368, everybody left, letting any waiting people know.
+Thread ID: 140311942653504, There are only 1 players, passing some time.
+Thread ID: 140311917475392, There are only 2 players, passing some time.
+Thread ID: 140311925868096, There are only 3 players, passing some time.
+Thread ID: 140311934260800, There are enough players, starting a match.
+Thread ID: 140311934260800, I am a player and now, I am leaving.
+Thread ID: 140311942653504, I am a player and now, I am leaving.
+Thread ID: 140311925868096, I am a player and now, I am leaving.
+Thread ID: 140311917475392, I am a player and now, I am leaving.
+Thread ID: 140311917475392, everybody left, letting any waiting people know.
+Thread ID: 140311909082688, There are only 1 players, passing some time.
+Thread ID: 140311909082688, I was not able to find a match and I have to leave.
+The Main terminates.

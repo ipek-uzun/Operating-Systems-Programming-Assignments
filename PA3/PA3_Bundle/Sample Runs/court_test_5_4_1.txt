@@ -1,0 +1,17 @@
+Thread ID: 140448535680576, I have arrived at the court.
+Thread ID: 140448535680576, There are only 1 players, passing some time.
+Thread ID: 140448527287872, I have arrived at the court.
+Thread ID: 140448527287872, There are only 2 players, passing some time.
+Thread ID: 140448450475584, I have arrived at the court.
+Thread ID: 140448450475584, There are only 3 players, passing some time.
+Thread ID: 140448442082880, I have arrived at the court.
+Thread ID: 140448442082880, There are only 4 players, passing some time.
+Thread ID: 140448433690176, I have arrived at the court.
+Thread ID: 140448433690176, There are enough players, starting a match.
+Thread ID: 140448433690176, I am the referee and now, match is over. I am leaving.
+Thread ID: 140448527287872, I am a player and now, I am leaving.
+Thread ID: 140448450475584, I am a player and now, I am leaving.
+Thread ID: 140448442082880, I am a player and now, I am leaving.
+Thread ID: 140448535680576, I am a player and now, I am leaving.
+Thread ID: 140448535680576, everybody left, letting any waiting people know.
+The Main terminates.

@@ -1,0 +1,57 @@
+void enter() {
+    unsigned long tid = (unsigned long)pthread_self();
+    printf("Thread ID: %lu, I have arrived at the court.\n", tid);
+
+    sem_wait(&court_available);                 // kapasite kontrolü
+
+    /* -------- K R I T I K    K I S I M -------- */
+    pthread_mutex_lock(&mutex);
+    bool wasGameGoing = matchGoing; 
+    ++currentCount;
+
+    bool iStartedMatch  = false;                   // ← sadece bir thread true olacak
+
+    /* Maçın ilk kez oluştuğu anı yakala */
+    if (!matchGoing) {
+        if ((hasReferee  && currentCount == totalParticipants) ||
+            (!hasReferee && currentCount == neededPlayers)) {
+
+            matchGoing  = true;
+            iStartedMatch = true;                 // ben kurdum
+            if (hasReferee) refereeId = pthread_self();
+        }
+    }
+
+   bool gameNow = matchGoing;  
+    int snapshot = currentCount;                // pass-time için
+    pthread_mutex_unlock(&mutex);
+
+if (!wasGameGoing && !iStartedMatch) {              // içeri girerken oyun yoktu
+        printf("Thread ID: %lu, There are only %d players, passing some time.\n",
+               tid, snapshot);
+     if (!matchGoing) {
+            timespec ts;
+    clock_gettime(CLOCK_REALTIME, &ts);
+    ts.tv_sec  += 0;          // saniye ekleme
+    ts.tv_nsec += 500'000'000;   // 0.5 sn
+    if (ts.tv_nsec >= 1'000'000'000) { ts.tv_sec++; ts.tv_nsec -= 1'000'000'000; }      
+ sem_timedwait(&wait_for_match, &ts);
+
+}
+    }
+if (iStartedMatch) {
+        for (int i = 0; i < totalParticipants - 1; ++i)
+            sem_post(&wait_for_match);
+    }
+
+if (matchGoing) {  
+
+  int rc = pthread_barrier_wait(&startBarrier);
+
+    if (rc == PTHREAD_BARRIER_SERIAL_THREAD) {       // bariyeri “kapan” thread
+        printf("Thread ID: %lu, There are enough players, starting a match.\n",
+
+}
+}
+
+} 

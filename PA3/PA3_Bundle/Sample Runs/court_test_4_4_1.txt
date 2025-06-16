@@ -1,0 +1,13 @@
+Thread ID: 139890325538368, I have arrived at the court.
+Thread ID: 139890317145664, I have arrived at the court.
+Thread ID: 139890325538368, There are only 1 players, passing some time.
+Thread ID: 139890317145664, There are only 2 players, passing some time.
+Thread ID: 139890174535232, I have arrived at the court.
+Thread ID: 139890174535232, There are only 3 players, passing some time.
+Thread ID: 139890238944832, I have arrived at the court.
+Thread ID: 139890238944832, There are only 4 players, passing some time.
+Thread ID: 139890325538368, I was not able to find a match and I have to leave.
+Thread ID: 139890317145664, I was not able to find a match and I have to leave.
+Thread ID: 139890174535232, I was not able to find a match and I have to leave.
+Thread ID: 139890238944832, I was not able to find a match and I have to leave.
+The Main terminates.

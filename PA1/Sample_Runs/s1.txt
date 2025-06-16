@@ -1,0 +1,2 @@
+izerburak@DESKTOP$ ./treePipe 0 0
+Usage: ./treePipe <current depth> <max depth> <left-right>

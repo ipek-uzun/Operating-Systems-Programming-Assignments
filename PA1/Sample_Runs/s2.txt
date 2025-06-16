@@ -1,0 +1,27 @@
+izerburak@DESKTOP$ ./treePipe 0 2 0
+> current depth: 0, lr: 0
+Please enter num1 for the root: 2
+> my num1 is: 2
+---> current depth: 1, lr: 0
+---> my num1 is: 2
+------> current depth: 2, lr: 0
+------> my num1 is: 2
+------> my result is: 3
+---> current depth: 1, lr: 0, my num1: 2, my num2: 3
+---> my result is: 5
+------> current depth: 2, lr: 1
+------> my num1 is: 5
+------> my result is: 5
+> current depth: 0, lr: 0, my num1: 2, my num2: 5
+> my result is: 7
+---> current depth: 1, lr: 1
+---> my num1 is: 7
+------> current depth: 2, lr: 0
+------> my num1 is: 7
+------> my result is: 8
+---> current depth: 1, lr: 1, my num1: 7, my num2: 8
+---> my result is: 56
+------> current depth: 2, lr: 1
+------> my num1 is: 56
+------> my result is: 56
+The final result is: 56
